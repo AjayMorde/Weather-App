@@ -116,3 +116,44 @@ h2 {
     display: flex;
     justify-content: center;
 }
+
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+    header {
+        width: 90%;
+    }
+
+    .input_button_box {
+        width: 90%;
+        height: auto;
+        padding: 1.5rem;
+    }
+
+    input {
+        width: 100%;
+        font-size: large;
+        padding: 0.7rem;
+    }
+
+    button {
+        width: 50%;
+        font-size: medium;
+        padding: 0.7rem;
+    }
+
+    .weather_box {
+        width: 90%;
+        height: auto;
+        margin-top: 2rem;
+        padding: 1rem;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+    }
+
+    .box p {
+        font-size: medium;
+        margin-left: 1rem;
+    }
+}
